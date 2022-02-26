@@ -1,0 +1,1 @@
+C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\AppPackages\OnSite Kiosk_1.0.6.0_Debug_Test\OnSite Kiosk_1.0.6.0_x86_x64_Debug.msixbundle

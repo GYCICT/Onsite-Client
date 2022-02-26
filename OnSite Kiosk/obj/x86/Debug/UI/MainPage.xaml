@@ -1,0 +1,30 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="OnSite_Kiosk.UI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    x:Name="page_home"                          >
+    <RelativePanel>
+        <Button x:ConnectionId='2' x:Name="btn_Back" Style="{ThemeResource NavigationBackButtonNormalStyle}"                        Visibility="Visible" IsEnabled="False" IsTabStop="False"/>
+
+        <Image x:ConnectionId='3' x:Name="Logo" Height="120" Width="120" Source="/UI/Assets/gyc.png" RelativePanel.Below="btn_Back" Margin="20, 0, 0, 0"                       />
+        <TextBlock x:ConnectionId='4' x:Name="PageTitleLabel"  Text="" FontSize="48" RelativePanel.RightOf="Logo" RelativePanel.AlignVerticalCenterWith="Logo">
+            <TextBlock.Resources>
+                <Storyboard x:ConnectionId='6' x:Name="TitleFadeOut">
+                    <DoubleAnimation From="1" To="0" Storyboard.TargetName="PageTitleLabel" Storyboard.TargetProperty="Opacity" Duration="0:0:0.2"/>
+                </Storyboard>
+                <Storyboard x:ConnectionId='7' x:Name="TitleFadeIn">
+                    <DoubleAnimation From="0" To="1" Storyboard.TargetName="PageTitleLabel" Storyboard.TargetProperty="Opacity" Duration="0:0:0.2"/>
+                </Storyboard>
+            </TextBlock.Resources>
+        </TextBlock>
+        <Frame x:ConnectionId='5' x:Name="ContentFrame" Content="Main content goes here" RelativePanel.Below="Logo" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" Margin="20, 20, 20, 20"                                   />
+
+    </RelativePanel>
+
+</Page>
+

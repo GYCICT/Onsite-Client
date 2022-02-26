@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AssignedAccessConfiguration xmlns="http://schemas.microsoft.com/AssignedAccess/2017/config">
+  <Profiles>
+    <Profile Id="{9A2A490F-10F6-4764-974A-43B19E722C23}">
+      <AllAppsList>
+        <AllowedApps>
+          <App AppUserModelId="7acd2f74-b62d-4dbb-a73f-31ef89e95a0c_53rjc4zddenej!App" />
+        </AllowedApps>
+      </AllAppsList>
+      <Taskbar ShowTaskbar="false"/>
+    </Profile>
+  </Profiles>
+  <Configs>
+    <Config>
+      <Account>Kiosk</Account>
+      <DefaultProfile Id="{9A2A490F-10F6-4764-974A-43B19E722C23}"/>
+    </Config>
+  </Configs>
+</AssignedAccessConfiguration>

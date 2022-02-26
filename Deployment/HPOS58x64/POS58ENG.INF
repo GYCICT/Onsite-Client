@@ -1,0 +1,66 @@
+;
+;	HSPOS Printer Installation File
+;
+;	 List of supported printers, manufacturers
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=HSPOS
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+CatalogFile.NTamd64=POS58ENG.cat
+DriverVer = 02/12/2019,6.1.7600.16385
+
+;
+; Manufacturer section.
+;
+; This section lists all of the manufacturers
+; that we will display in the Dialog box
+;
+
+[Manufacturer]
+"hspos"=hspos, NTamd64
+
+;
+; Model Specifications Section
+;
+
+[hspos]
+"POS58ENG"     = POS58ENG.GPD
+
+[hspos.NTamd64]
+"POS58ENG"     = POS58ENG.GPD
+
+;
+; Installer section(s) referenced above.
+;
+
+[POS58ENG.GPD]
+CopyFiles=@POS58RCENG.DLL,@POS58ENG.GPD,@POS58ENG.INI,@POS58UNIENG.DLL
+DataSection=UNIDRV_DATA
+DataFile=POS58ENG.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[SourceDisksNames]
+1 = %disk1%,,,
+
+[SourceDisksNames.amd64]
+1 = %disk1%,,,
+
+[SourceDisksFiles]
+POS58RCENG.DLL     = 1
+POS58ENG.GPD       = 1
+POS58ENG.INI       = 1
+POS58UNIENG.DLL    = 1
+
+
+
+[Strings]
+PrinterClassName="Printers"
+disk1="hspos Printer Driver Setup Disk"

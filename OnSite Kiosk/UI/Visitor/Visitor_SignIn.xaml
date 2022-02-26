@@ -1,0 +1,113 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.Visitor.Visitor_SignIn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI.Visitor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid ColumnSpacing="20" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock x:Name="lbl_firstname">First Name</TextBlock>
+                <Grid ColumnSpacing="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txt_firstname" Grid.Column="0" Text="{Binding firstname, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" x:DefaultBindMode="TwoWay" />
+                    <SymbolIcon x:Name="img_firstname_ok" Symbol="Accept" Foreground="ForestGreen" Grid.Column="1" Opacity="0"/>
+                    <FontIcon  x:Name="img_firstname_warn" Foreground="Red" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BA;" Grid.Column="1" Opacity="0"/>
+                </Grid>
+                
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock x:Name="lbl_lastname">Last Name</TextBlock>
+                <Grid ColumnSpacing="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txt_lastname" Grid.Column="0" LostFocus="txt_lastname_LostFocus"/>
+                    <SymbolIcon x:Name="img_lastname_ok" Symbol="Accept" Foreground="ForestGreen" Grid.Column="1" Opacity="0"/>
+                    <FontIcon  x:Name="img_lastname_warn" Foreground="Red" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BA;" Grid.Column="1" Opacity="0"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+        <Grid ColumnSpacing="20" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock x:Name="lbl_mobile">Mobile</TextBlock>
+                <Grid ColumnSpacing="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txt_mobile" Grid.Column="0" LostFocus="txt_mobile_LostFocus" InputScope="NumericPin"/>
+                    <SymbolIcon x:Name="img_mobile_ok" Symbol="Accept" Foreground="ForestGreen" Grid.Column="1" Opacity="0"/>
+                    <FontIcon  x:Name="img_mobile_warn" Foreground="Red" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BA;" Grid.Column="1" Opacity="0"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <TextBlock x:Name="lbl_company">Company Name</TextBlock>
+                <Grid ColumnSpacing="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txt_company" Grid.Column="0"/>
+                    <SymbolIcon x:Name="img_company_ok" Symbol="Accept" Foreground="ForestGreen" Grid.Column="1" Opacity="0"/>
+                    <FontIcon  x:Name="img_company_warn" Foreground="Red" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BA;" Grid.Column="1" Opacity="0"/>
+                </Grid>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <TextBlock x:Name="lbl_wwvp">RWVP / WWVP Number</TextBlock>
+                <Grid ColumnSpacing="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txt_wwvp" InputScope="NumericPin" Grid.Column="0"/>
+                    <ProgressRing IsActive="False" x:Name="prg_wwvp" Grid.Column="1"/>
+                    <SymbolIcon x:Name="img_wwvp_ok" Symbol="Accept" Foreground="ForestGreen" Grid.Column="1" Opacity="0"/>
+                    <FontIcon  x:Name="img_wwvp_warn" Foreground="Red" FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE7BA;" Grid.Column="1" Opacity="0"/>
+                </Grid>
+                
+            </StackPanel>
+        </Grid>
+        <TextBlock Grid.Row="2">Please note that we are required to sight your Registration with Vulnerable People card and to take a photocopy for our records.</TextBlock>
+        <StackPanel Grid.Row="3">
+            <TextBlock>Notify somebody that you're here?</TextBlock>
+            <StackPanel Width="320" Canvas.ZIndex="1" HorizontalAlignment="Left">
+                <TextBox HorizontalAlignment="Stretch" PlaceholderText="Search..." TextWrapping="Wrap" VerticalAlignment="Center" x:Name="txt_search" TextChanged="txt_search_TextChanged" BorderThickness="1" BorderBrush="Black" KeyUp="txt_search_KeyUp"  Background="{ThemeResource TextBoxBackgroundThemeBrush}" />
+                <ListView HorizontalAlignment="Stretch" BorderBrush="Black" BorderThickness="1" Visibility="Collapsed" x:Name="lst_results" Tapped="lst_results_Tapped" Background="{ThemeResource TextBoxBackgroundThemeBrush}"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <TextBlock>Do you require Internet access?</TextBlock>
+            <CheckBox x:Name="chk_internet">Yes, I require Internet access</CheckBox>
+        </StackPanel>
+        <StackPanel Grid.Row="5">
+            <Button CornerRadius="10" Height="100" HorizontalAlignment="Stretch" MaxWidth="320" Click="Button_Click">Continue</Button>
+        </StackPanel>
+        
+    </Grid>
+</Page>

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\OnSite Kiosk_1.0.6.0_x86_Debug.msix
+SymbolPackage=C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Debug\Symbols\OnSite Kiosk_1.0.6.0_x86_Debug.appxsym

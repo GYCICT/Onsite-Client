@@ -1,0 +1,1 @@
+C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\OnSite Kiosk.csproj;x64

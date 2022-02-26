@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.Student.Student_Select"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI.Student"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid MaxWidth="1000" VerticalAlignment="Stretch" Margin="0,0,0,120">
+        <StackPanel Width="320" Canvas.ZIndex="1">
+            <TextBox HorizontalAlignment="Stretch" PlaceholderText="Search..." TextWrapping="Wrap" VerticalAlignment="Center" x:Name="txt_search" TextChanged="txt_search_TextChanged" BorderThickness="1" BorderBrush="Black" KeyUp="txt_search_KeyUp"  Background="{ThemeResource TextBoxBackgroundThemeBrush}" TabIndex="0" />
+            <ListView HorizontalAlignment="Stretch" BorderBrush="Black" BorderThickness="1" Visibility="Collapsed" x:Name="lst_results" Tapped="lst_results_Tapped" Background="{ThemeResource TextBoxBackgroundThemeBrush}"/>
+        </StackPanel>
+        <ProgressRing Height="100" Width="100" IsActive="False"  x:Name="prg_loading"/>
+        <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ColumnSpacing="0" x:Name="action_panel" Visibility="Collapsed">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" x:Name="col_signin"/>
+                <ColumnDefinition Width="*" x:Name="col_late"/>
+                <ColumnDefinition Width="*" x:Name="col_signout"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" HorizontalAlignment="Stretch" Height="100" MaxWidth="320" Margin="4" CornerRadius="10" Click="Signin_Click">Sign In</Button>
+            <Button Grid.Column="1" HorizontalAlignment="Stretch" Height="100" MaxWidth="320" Margin="4" CornerRadius="10" Click="Late_Click">Sign In (Late to School)</Button>
+            <Button Grid.Column="2" HorizontalAlignment="Stretch" Height="100" MaxWidth="320" Margin="4" CornerRadius="10" Click="Signout_Click">Sign Out</Button>
+            
+        </Grid>
+    </Grid>
+</Page>

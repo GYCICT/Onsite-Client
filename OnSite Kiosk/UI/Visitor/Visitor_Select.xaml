@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.Visitor.Visitor_Select"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI.Visitor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local1="using:OnSite_Kiosk.BusinessLogic"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+    <Page.Resources>
+        <DataTemplate x:Key="VisitorItemTemplate" x:DataType="local1:GuestPass">
+            <StackPanel Orientation="Horizontal" Spacing="8">
+                <FontIcon Glyph="&#xE77B;" FontFamily="{StaticResource SymbolThemeFontFamily}"/>
+                <TextBlock Text="{x:Bind DisplayName}"/>
+            </StackPanel>
+        </DataTemplate>
+        <local1:ZeroOrGreaterConverter x:Key="ShouldEnableButton" />
+    </Page.Resources>
+
+    <Grid>
+        <RelativePanel>
+            <TextBlock x:Name="lbl_header" FontSize="20">Please select your name to sign out</TextBlock>
+            <ListView ItemTemplate="{StaticResource VisitorItemTemplate}" x:Name="lst_visitor" RelativePanel.Below="lbl_header" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" Margin="0,8,0,120" ItemsSource="{x:Bind Guests,Mode=TwoWay}">
+                <ListViewItem Padding="16">
+                    
+                </ListViewItem>
+            </ListView>
+            <Button Height="100" CornerRadius="10" Width="320" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" IsEnabled="{Binding ElementName=lst_visitor, Path=SelectedIndex, Converter={StaticResource ShouldEnableButton}}" Click="Button_Click">
+                
+                Sign Out
+            </Button>
+        </RelativePanel>
+
+    </Grid>
+</Page>

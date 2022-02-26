@@ -1,0 +1,55 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="OnSite_Kiosk.UI.Student.Student_SignOut"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI.Student"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                     >
+
+    <StackPanel>
+        <TextBlock x:ConnectionId='2' FontSize="20" Margin="0,40,0,20" x:Name="lbl_Reason_for_signing_out">Reason for signing out</TextBlock>
+        <Grid x:ConnectionId='3' x:Name="reason_grid" ColumnSpacing="16" RowSpacing="20" HorizontalAlignment="Stretch" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <ToggleButton Height="100" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" CornerRadius="10">Button 1</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" CornerRadius="10">Button 2</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Stretch" CornerRadius="10">Button 3</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Stretch" CornerRadius="10">Button 1</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Stretch" CornerRadius="10">Button 2</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Stretch" CornerRadius="10">Button 3</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Stretch" CornerRadius="10">Button 1</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" CornerRadius="10">Button 2</ToggleButton>
+            <ToggleButton Height="100" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Stretch" CornerRadius="10">Button 3</ToggleButton>
+        </Grid>
+        <Grid RelativePanel.Below="reason_grid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Visibility="Collapsed">
+                <TextBlock x:ConnectionId='6' FontSize="20" Margin="0,40,0,20" x:Name="lbl_Estimated_return">Estimated Return</TextBlock>
+                <Slider x:ConnectionId='7' VerticalAlignment="Top" HorizontalAlignment="Stretch"  x:Name="sld_estimated_return" IsThumbToolTipEnabled="False" Value="1" Minimum="1" Maximum="1"                                                  />
+                <TextBlock x:ConnectionId='8' FontSize="12" Margin="0,0,0,0" x:Name="lbl_return_time" TextAlignment="Center">Not returning</TextBlock>
+                
+            </StackPanel>
+            
+           
+        </Grid>
+        <RelativePanel>
+            <Button x:ConnectionId='4' Height="100" CornerRadius="10" MinWidth="320" Margin="20,0,0,20" x:Name="btn_Signout" RelativePanel.AlignBottomWithPanel="True"  RelativePanel.AlignRightWithPanel="True"                           IsEnabled="False">Sign Out - Print Leave Pass</Button>
+            <Button x:ConnectionId='5' Height="100" CornerRadius="10" MinWidth="320" Margin="0,20" x:Name="btn_SignoutNoPass" RelativePanel.AlignBottomWithPanel="True"  RelativePanel.LeftOf="btn_Signout"                                 IsEnabled="False">Sign Out - Do not print</Button>
+        </RelativePanel>
+    </StackPanel>
+    
+</Page>
+

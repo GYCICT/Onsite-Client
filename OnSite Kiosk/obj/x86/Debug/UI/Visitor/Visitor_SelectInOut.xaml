@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.Visitor.Visitor_SelectInOut"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI.Visitor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid MaxWidth="1000" RowSpacing="20" Margin="0,0,0,120" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:ConnectionId='2' Grid.Column="0" Height="100" HorizontalAlignment="Stretch" MaxWidth="320" CornerRadius="10"                     >Sign In</Button>
+        <Button x:ConnectionId='3' Grid.Column="1" Height="100" HorizontalAlignment="Stretch" MaxWidth="320" CornerRadius="10"                      >Sign Out</Button>
+    </Grid>
+</Page>
+

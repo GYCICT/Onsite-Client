@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GYCT1801</Machine>
+    <WindowsUser>pprice</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>7acd2f74-b62d-4dbb-a73f-31ef89e95a0c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pprice</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\OnSite Kiosk.exe">
+      <PackagePath>entrypoint\OnSite Kiosk.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Assets\passlogo.png">
+      <PackagePath>Assets\passlogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\gyc.png">
+      <PackagePath>UI\Assets\gyc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>UI\Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>UI\Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>UI\Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>UI\Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\StoreLogo.png">
+      <PackagePath>UI\Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\UI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>UI\Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\Newtonsoft.Json.xml">
+      <PackagePath>Util\Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Util\Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\netstandard.dll">
+      <PackagePath>Util\netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\Newtonsoft.Json.dll">
+      <PackagePath>Util\Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\QrCodeGenerator.dll">
+      <PackagePath>Util\QrCodeGenerator.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.AppContext.dll">
+      <PackagePath>Util\System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Collections.Concurrent.dll">
+      <PackagePath>Util\System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Collections.dll">
+      <PackagePath>Util\System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Collections.NonGeneric.dll">
+      <PackagePath>Util\System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Collections.Specialized.dll">
+      <PackagePath>Util\System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ComponentModel.dll">
+      <PackagePath>Util\System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>Util\System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ComponentModel.Primitives.dll">
+      <PackagePath>Util\System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>Util\System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Console.dll">
+      <PackagePath>Util\System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Data.Common.dll">
+      <PackagePath>Util\System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.Contracts.dll">
+      <PackagePath>Util\System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.Debug.dll">
+      <PackagePath>Util\System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>Util\System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.Process.dll">
+      <PackagePath>Util\System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.StackTrace.dll">
+      <PackagePath>Util\System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>Util\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.Tools.dll">
+      <PackagePath>Util\System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.TraceSource.dll">
+      <PackagePath>Util\System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Diagnostics.Tracing.dll">
+      <PackagePath>Util\System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Drawing.Common.dll">
+      <PackagePath>Util\System.Drawing.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Drawing.Primitives.dll">
+      <PackagePath>Util\System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Dynamic.Runtime.dll">
+      <PackagePath>Util\System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Globalization.Calendars.dll">
+      <PackagePath>Util\System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Globalization.dll">
+      <PackagePath>Util\System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Globalization.Extensions.dll">
+      <PackagePath>Util\System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.Compression.dll">
+      <PackagePath>Util\System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.Compression.ZipFile.dll">
+      <PackagePath>Util\System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.dll">
+      <PackagePath>Util\System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.FileSystem.dll">
+      <PackagePath>Util\System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>Util\System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>Util\System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>Util\System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.IsolatedStorage.dll">
+      <PackagePath>Util\System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>Util\System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.Pipes.dll">
+      <PackagePath>Util\System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>Util\System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Linq.dll">
+      <PackagePath>Util\System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Linq.Expressions.dll">
+      <PackagePath>Util\System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Linq.Parallel.dll">
+      <PackagePath>Util\System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Linq.Queryable.dll">
+      <PackagePath>Util\System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Http.dll">
+      <PackagePath>Util\System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.NameResolution.dll">
+      <PackagePath>Util\System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.NetworkInformation.dll">
+      <PackagePath>Util\System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Ping.dll">
+      <PackagePath>Util\System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Primitives.dll">
+      <PackagePath>Util\System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Requests.dll">
+      <PackagePath>Util\System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Security.dll">
+      <PackagePath>Util\System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.Sockets.dll">
+      <PackagePath>Util\System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.WebHeaderCollection.dll">
+      <PackagePath>Util\System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.WebSockets.Client.dll">
+      <PackagePath>Util\System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Net.WebSockets.dll">
+      <PackagePath>Util\System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ObjectModel.dll">
+      <PackagePath>Util\System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Reflection.dll">
+      <PackagePath>Util\System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Reflection.Extensions.dll">
+      <PackagePath>Util\System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Reflection.Primitives.dll">
+      <PackagePath>Util\System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Resources.Reader.dll">
+      <PackagePath>Util\System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Resources.ResourceManager.dll">
+      <PackagePath>Util\System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Resources.Writer.dll">
+      <PackagePath>Util\System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>Util\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.dll">
+      <PackagePath>Util\System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Extensions.dll">
+      <PackagePath>Util\System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Handles.dll">
+      <PackagePath>Util\System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.InteropServices.dll">
+      <PackagePath>Util\System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>Util\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Numerics.dll">
+      <PackagePath>Util\System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Serialization.Json.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>Util\System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Claims.dll">
+      <PackagePath>Util\System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>Util\System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Cryptography.Csp.dll">
+      <PackagePath>Util\System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>Util\System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>Util\System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>Util\System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.Principal.dll">
+      <PackagePath>Util\System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Security.SecureString.dll">
+      <PackagePath>Util\System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Text.Encoding.dll">
+      <PackagePath>Util\System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Text.Encoding.Extensions.dll">
+      <PackagePath>Util\System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Text.RegularExpressions.dll">
+      <PackagePath>Util\System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.dll">
+      <PackagePath>Util\System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.Overlapped.dll">
+      <PackagePath>Util\System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.Tasks.dll">
+      <PackagePath>Util\System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>Util\System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.Thread.dll">
+      <PackagePath>Util\System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.ThreadPool.dll">
+      <PackagePath>Util\System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Threading.Timer.dll">
+      <PackagePath>Util\System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.ValueTuple.dll">
+      <PackagePath>Util\System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.ReaderWriter.dll">
+      <PackagePath>Util\System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.XDocument.dll">
+      <PackagePath>Util\System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.XmlDocument.dll">
+      <PackagePath>Util\System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.XmlSerializer.dll">
+      <PackagePath>Util\System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.XPath.dll">
+      <PackagePath>Util\System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\System.Xml.XPath.XDocument.dll">
+      <PackagePath>Util\System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\PassPrint.exe">
+      <PackagePath>Util\PassPrint.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\PassPrint.exe.config">
+      <PackagePath>Util\PassPrint.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\Util\Windows.winmd">
+      <PackagePath>Util\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\OnSite Kiosk.xr.xml">
+      <PackagePath>OnSite Kiosk.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Home.xbf">
+      <PackagePath>UI\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\LoadingView.xbf">
+      <PackagePath>UI\LoadingView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\MainPage.xbf">
+      <PackagePath>UI\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\SettingsPage.xbf">
+      <PackagePath>UI\SettingsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\SignInOutComplete.xbf">
+      <PackagePath>UI\SignInOutComplete.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Staff\Staff_Select.xbf">
+      <PackagePath>UI\Staff\Staff_Select.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Staff\Staff_SignOut.xbf">
+      <PackagePath>UI\Staff\Staff_SignOut.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Staff\Staff_SignOutOther.xbf">
+      <PackagePath>UI\Staff\Staff_SignOutOther.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Student\Student_Late.xbf">
+      <PackagePath>UI\Student\Student_Late.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Student\Student_SignOut.xbf">
+      <PackagePath>UI\Student\Student_SignOut.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Student\Student_Select.xbf">
+      <PackagePath>UI\Student\Student_Select.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_CheckWWVP.xbf">
+      <PackagePath>UI\Visitor\Visitor_CheckWWVP.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_ConfirmSignOut.xbf">
+      <PackagePath>UI\Visitor\Visitor_ConfirmSignOut.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_Select.xbf">
+      <PackagePath>UI\Visitor\Visitor_Select.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_SelectInOut.xbf">
+      <PackagePath>UI\Visitor\Visitor_SelectInOut.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_SignIn.xbf">
+      <PackagePath>UI\Visitor\Visitor_SignIn.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\UI\Visitor\Visitor_SiteInfo.xbf">
+      <PackagePath>UI\Visitor\Visitor_SiteInfo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\bin\x86\Debug\Core\OnSite Kiosk.exe">
+      <PackagePath>OnSite Kiosk.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

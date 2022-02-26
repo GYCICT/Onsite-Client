@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="7acd2f74-b62d-4dbb-a73f-31ef89e95a0c" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="OnSite Kiosk.xr.xml" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/OnSite Kiosk.xr.xml">
+				<Candidate type="Path">
+					<Value>OnSite Kiosk.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="passlogo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Assets/passlogo.png">
+					<Candidate type="Path">
+						<Value>Assets\passlogo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="UI">
+				<NamedResource name="Home.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Home.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoadingView.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/LoadingView.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainPage.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/MainPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SettingsPage.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/SettingsPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SignInOutComplete.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/SignInOutComplete.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Assets">
+					<NamedResource name="gyc.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/gyc.png">
+						<Candidate type="Path">
+							<Value>UI\Assets\gyc.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="LockScreenLogo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/LockScreenLogo.png">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>UI\Assets\LockScreenLogo.scale-200.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SplashScreen.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/SplashScreen.png">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>UI\Assets\SplashScreen.scale-200.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Square150x150Logo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/Square150x150Logo.png">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>UI\Assets\Square150x150Logo.scale-200.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Square44x44Logo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/Square44x44Logo.png">
+						<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+							<Value>UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+						</Candidate>
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>UI\Assets\Square44x44Logo.scale-200.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="StoreLogo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/StoreLogo.png">
+						<Candidate type="Path">
+							<Value>UI\Assets\StoreLogo.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Wide310x150Logo.png" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Assets/Wide310x150Logo.png">
+						<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+							<Value>UI\Assets\Wide310x150Logo.scale-200.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Staff">
+					<NamedResource name="Staff_Select.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Staff/Staff_Select.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Staff_SignOut.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Staff/Staff_SignOut.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Staff_SignOutOther.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Staff/Staff_SignOutOther.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Student">
+					<NamedResource name="Student_Late.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Student/Student_Late.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Student_Select.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Student/Student_Select.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Student_SignOut.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Student/Student_SignOut.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Visitor">
+					<NamedResource name="Visitor_CheckWWVP.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_CheckWWVP.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Visitor_ConfirmSignOut.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_ConfirmSignOut.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Visitor_Select.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_Select.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Visitor_SelectInOut.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_SelectInOut.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Visitor_SignIn.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_SignIn.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Visitor_SiteInfo.xbf" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/UI/Visitor/Visitor_SiteInfo.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Util">
+				<NamedResource name="Microsoft.Win32.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/Microsoft.Win32.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\Microsoft.Win32.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="netstandard.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/netstandard.dll">
+					<Candidate type="Path">
+						<Value>Util\netstandard.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Newtonsoft.Json.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/Newtonsoft.Json.dll">
+					<Candidate type="Path">
+						<Value>Util\Newtonsoft.Json.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Newtonsoft.Json.xml" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/Newtonsoft.Json.xml">
+					<Candidate type="Path">
+						<Value>Util\Newtonsoft.Json.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PassPrint.exe" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/PassPrint.exe">
+					<Candidate type="Path">
+						<Value>Util\PassPrint.exe</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PassPrint.exe.config" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/PassPrint.exe.config">
+					<Candidate type="Path">
+						<Value>Util\PassPrint.exe.config</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PassPrint.pdb" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/PassPrint.pdb">
+					<Candidate type="Path">
+						<Value>Util\PassPrint.pdb</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="QrCodeGenerator.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/QrCodeGenerator.dll">
+					<Candidate type="Path">
+						<Value>Util\QrCodeGenerator.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.AppContext.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.AppContext.dll">
+					<Candidate type="Path">
+						<Value>Util\System.AppContext.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Collections.Concurrent.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Collections.Concurrent.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Collections.Concurrent.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Collections.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Collections.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Collections.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Collections.NonGeneric.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Collections.NonGeneric.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Collections.NonGeneric.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Collections.Specialized.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Collections.Specialized.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Collections.Specialized.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ComponentModel.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ComponentModel.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ComponentModel.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ComponentModel.EventBasedAsync.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ComponentModel.EventBasedAsync.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ComponentModel.EventBasedAsync.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ComponentModel.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ComponentModel.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ComponentModel.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ComponentModel.TypeConverter.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ComponentModel.TypeConverter.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ComponentModel.TypeConverter.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Console.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Console.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Console.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Data.Common.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Data.Common.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Data.Common.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.Contracts.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.Contracts.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.Contracts.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.Debug.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.Debug.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.Debug.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.FileVersionInfo.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.FileVersionInfo.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.FileVersionInfo.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.Process.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.Process.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.Process.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.StackTrace.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.StackTrace.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.StackTrace.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.TextWriterTraceListener.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.TextWriterTraceListener.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.TextWriterTraceListener.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.Tools.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.Tools.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.Tools.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.TraceSource.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.TraceSource.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.TraceSource.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Diagnostics.Tracing.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Diagnostics.Tracing.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Diagnostics.Tracing.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Drawing.Common.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Drawing.Common.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Drawing.Common.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Drawing.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Drawing.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Drawing.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Dynamic.Runtime.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Dynamic.Runtime.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Dynamic.Runtime.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Globalization.Calendars.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Globalization.Calendars.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Globalization.Calendars.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Globalization.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Globalization.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Globalization.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Globalization.Extensions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Globalization.Extensions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Globalization.Extensions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.Compression.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.Compression.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.Compression.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.Compression.ZipFile.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.Compression.ZipFile.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.Compression.ZipFile.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.FileSystem.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.FileSystem.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.FileSystem.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.FileSystem.DriveInfo.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.FileSystem.DriveInfo.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.FileSystem.DriveInfo.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.FileSystem.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.FileSystem.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.FileSystem.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.FileSystem.Watcher.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.FileSystem.Watcher.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.FileSystem.Watcher.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.IsolatedStorage.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.IsolatedStorage.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.IsolatedStorage.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.MemoryMappedFiles.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.MemoryMappedFiles.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.MemoryMappedFiles.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.Pipes.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.Pipes.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.Pipes.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.IO.UnmanagedMemoryStream.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.IO.UnmanagedMemoryStream.dll">
+					<Candidate type="Path">
+						<Value>Util\System.IO.UnmanagedMemoryStream.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Linq.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Linq.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Linq.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Linq.Expressions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Linq.Expressions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Linq.Expressions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Linq.Parallel.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Linq.Parallel.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Linq.Parallel.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Linq.Queryable.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Linq.Queryable.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Linq.Queryable.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Http.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Http.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Http.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.NameResolution.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.NameResolution.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.NameResolution.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.NetworkInformation.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.NetworkInformation.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.NetworkInformation.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Ping.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Ping.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Ping.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Requests.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Requests.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Requests.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Security.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Security.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Security.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.Sockets.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.Sockets.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.Sockets.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.WebHeaderCollection.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.WebHeaderCollection.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.WebHeaderCollection.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.WebSockets.Client.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.WebSockets.Client.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.WebSockets.Client.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Net.WebSockets.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Net.WebSockets.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Net.WebSockets.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ObjectModel.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ObjectModel.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ObjectModel.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Reflection.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Reflection.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Reflection.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Reflection.Extensions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Reflection.Extensions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Reflection.Extensions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Reflection.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Reflection.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Reflection.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Resources.Reader.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Resources.Reader.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Resources.Reader.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Resources.ResourceManager.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Resources.ResourceManager.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Resources.ResourceManager.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Resources.Writer.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Resources.Writer.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Resources.Writer.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.CompilerServices.VisualC.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.CompilerServices.VisualC.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.CompilerServices.VisualC.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Extensions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Extensions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Extensions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Handles.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Handles.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Handles.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.InteropServices.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.InteropServices.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.InteropServices.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.InteropServices.RuntimeInformation.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.InteropServices.RuntimeInformation.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.InteropServices.RuntimeInformation.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Numerics.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Numerics.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Numerics.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Serialization.Formatters.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Serialization.Formatters.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Serialization.Formatters.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Serialization.Json.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Serialization.Json.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Serialization.Json.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Serialization.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Serialization.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Serialization.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Runtime.Serialization.Xml.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Runtime.Serialization.Xml.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Runtime.Serialization.Xml.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Claims.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Claims.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Claims.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Cryptography.Algorithms.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Cryptography.Algorithms.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Cryptography.Algorithms.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Cryptography.Csp.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Cryptography.Csp.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Cryptography.Csp.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Cryptography.Encoding.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Cryptography.Encoding.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Cryptography.Encoding.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Cryptography.Primitives.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Cryptography.Primitives.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Cryptography.Primitives.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Cryptography.X509Certificates.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Cryptography.X509Certificates.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Cryptography.X509Certificates.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.Principal.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.Principal.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.Principal.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Security.SecureString.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Security.SecureString.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Security.SecureString.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Text.Encoding.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Text.Encoding.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Text.Encoding.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Text.Encoding.Extensions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Text.Encoding.Extensions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Text.Encoding.Extensions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Text.RegularExpressions.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Text.RegularExpressions.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Text.RegularExpressions.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.Overlapped.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.Overlapped.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.Overlapped.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.Tasks.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.Tasks.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.Tasks.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.Tasks.Parallel.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.Tasks.Parallel.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.Tasks.Parallel.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.Thread.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.Thread.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.Thread.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.ThreadPool.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.ThreadPool.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.ThreadPool.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Threading.Timer.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Threading.Timer.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Threading.Timer.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.ValueTuple.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.ValueTuple.dll">
+					<Candidate type="Path">
+						<Value>Util\System.ValueTuple.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.ReaderWriter.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.ReaderWriter.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.ReaderWriter.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.XDocument.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.XDocument.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.XDocument.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.XmlDocument.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.XmlDocument.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.XmlDocument.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.XmlSerializer.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.XmlSerializer.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.XmlSerializer.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.XPath.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.XPath.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.XPath.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="System.Xml.XPath.XDocument.dll" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/System.Xml.XPath.XDocument.dll">
+					<Candidate type="Path">
+						<Value>Util\System.Xml.XPath.XDocument.dll</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Windows.winmd" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/Util/Windows.winmd">
+					<Candidate type="Path">
+						<Value>Util\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://7acd2f74-b62d-4dbb-a73f-31ef89e95a0c/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

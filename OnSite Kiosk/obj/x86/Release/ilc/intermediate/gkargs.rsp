@@ -1,0 +1,8 @@
+﻿"C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Release\ilc\in\Newtonsoft.Json.dll"
+"C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Release\ilc\in\OnSite Kiosk.exe"
+/Lib:"C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\x86\ilc\lib\Private"
+/WinMD:"C:\Users\pprice\source\repos\OnSite Kiosk\OnSite Kiosk\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{"IsOptedIn":true,"HostName":"Dev14","AppInsightsInstrumentationKey":"f144292e-e3b2-4011-ac90-20e5c03fbce5","AsimovInstrumentationKey":"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70","AppId":1001,"UserId":"2a5f6eba-2f6b-4583-98f8-f685cabc968c","Id":"28456c13-754a-4d37-8d23-63f62a7621c2","ProcessStartTime":637302838028518474}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.8-rel-28605-00\tools\LibraryXML"
+/RunOnlyPreDR

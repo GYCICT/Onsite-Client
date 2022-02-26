@@ -1,0 +1,1 @@
+﻿Add-AppxPackage -Path C:\Deployment\*.msix -DependencyPath (Get-ChildItem C:\Deployment\Dependencies\x64\*.appx | Foreach-Object {$_.FullName})

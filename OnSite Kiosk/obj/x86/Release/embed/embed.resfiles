@@ -1,0 +1,11 @@
+App.xbf
+UI\Home.xbf
+UI\MainPage.xbf
+UI\SettingsPage.xbf
+UI\SignInOutComplete.xbf
+UI\Staff\Staff_Select.xbf
+UI\Staff\Staff_SignOut.xbf
+UI\Staff\Staff_SignOutOther.xbf
+UI\Student\Student_Select.xbf
+UI\Visitor\Visitor_SelectInOut.xbf
+UI\Visitor\Visitor_SignIn.xbf

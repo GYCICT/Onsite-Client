@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <RelativePanel Margin="20, 0">
+        <TextBlock Text="SiteID: " TextWrapping="NoWrap" VerticalAlignment="Top" x:Name="lbl_SiteID"/>
+        <TextBox Text="" TextWrapping="NoWrap" VerticalAlignment="Top" x:Name="txt_SiteID" RelativePanel.Below="lbl_SiteID"/>
+        
+        <TextBlock Text="API Base URL: " TextWrapping="NoWrap" VerticalAlignment="Top" x:Name="lbl_APIBase" RelativePanel.Below="txt_SiteID" Margin="0,20, 0, 0"/>
+        <TextBox Text="" TextWrapping="NoWrap" VerticalAlignment="Top" Width="320" x:Name="txt_APIBase" RelativePanel.Below="lbl_APIBase"/>
+
+        <TextBlock Text="End of day (24 hour time):" TextWrapping="NoWrap" VerticalAlignment="Top" x:Name="lbl_EndOfDay" RelativePanel.Below="txt_APIBase" Margin="0,20, 0, 0"/>
+        <TextBox Text="" TextWrapping="NoWrap" VerticalAlignment="Top" PlaceholderText="16:00" x:Name="txt_EndOfDay" RelativePanel.Below="lbl_EndOfDay"/>
+
+        <TextBlock Margin="0,20,0,8" FontSize="20" x:Name="lbl_enabled_modules" RelativePanel.Below="txt_EndOfDay">Enabled Modules</TextBlock>
+        <ToggleSwitch x:Name="sw_mod_student" RelativePanel.Below="lbl_enabled_modules">Student Module</ToggleSwitch>
+        <ToggleSwitch x:Name="sw_mod_staff" RelativePanel.RightOf="sw_mod_student" RelativePanel.AlignTopWith="sw_mod_student">Staff Module</ToggleSwitch>
+        <ToggleSwitch x:Name="sw_mod_visitor" RelativePanel.RightOf="sw_mod_staff" RelativePanel.AlignTopWith="sw_mod_staff">Visitor Module</ToggleSwitch>
+
+        <Button Content="Save" VerticalAlignment="Top" Width="120" Margin="0, 20" Click="Button_Click" RelativePanel.Below="sw_mod_visitor"/>
+
+    </RelativePanel>
+</Page>

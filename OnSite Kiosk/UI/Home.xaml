@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="OnSite_Kiosk.UI.Home"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OnSite_Kiosk"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Unloaded="Page_Unloaded" Loaded="Page_Loaded" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
+
+    <Grid MaxWidth="1000" RowSpacing="20" Margin="0,0,0,120" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid ColumnSpacing="20" Grid.Row="0" x:Name="main_menu" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" x:Name="col_staff"/>
+                <ColumnDefinition Width="*" x:Name="col_student"/>
+                <ColumnDefinition Width="*" x:Name="col_visitor"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btn_staff" HorizontalAlignment="Stretch" Content="Staff" Height="100" MaxWidth="320" Grid.Column="0" Click="btn_staff_Click" AllowFocusOnInteraction="False" IsTabStop="False" CornerRadius="10" />
+            <Button x:Name="btn_student" HorizontalAlignment="Stretch" Content="Student" Height="100" MaxWidth="320" Grid.Column="1" Click="btn_student_Click" AllowFocusOnInteraction="False" IsTabStop="False" CornerRadius="10"/>
+            <Button x:Name="btn_visitor" HorizontalAlignment="Stretch" Content="Visitor" Height="100" MaxWidth="320" Grid.Column="2" AllowFocusOnInteraction="False" IsTabStop="False" CornerRadius="10" Click="btn_visitor_Click"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Center" Text="To begin, select from the buttons above, or scan your ID card/visitor pass" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" x:Name="lbl_intro" Grid.Column="1"/>
+        <ProgressRing IsActive="False" x:Name="prg_loading" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

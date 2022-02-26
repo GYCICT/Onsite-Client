@@ -1,0 +1,1 @@
+certutil -addstore -f -enterprise root (Get-ChildItem *.cer | Foreach-Object { $_.FullName })
