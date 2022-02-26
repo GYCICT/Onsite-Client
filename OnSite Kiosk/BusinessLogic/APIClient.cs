@@ -189,7 +189,8 @@ namespace OnSite_Kiosk.BusinessLogic
             }
             return null;
         }
-
+        
+        //TODO: ParentSMS
         async public Task<bool> StudentSignOut(Person person, String siteid, SignOutReason reason, String parentmobile DateTime? expectereturn = null)
         {
             Dictionary<String, String> dict = new Dictionary<String, String> {
