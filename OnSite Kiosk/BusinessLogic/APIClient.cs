@@ -206,7 +206,6 @@ namespace OnSite_Kiosk.BusinessLogic
             }
                 var content = new FormUrlEncodedContent(dict);
                 
-                var mobile = new FormUrlEncodedContent(new Dictionary<String, String> { { "parentsms", parentmobile } });
 
             try
             {
