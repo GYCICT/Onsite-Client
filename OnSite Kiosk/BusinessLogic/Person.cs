@@ -28,9 +28,18 @@ namespace OnSite_Kiosk.BusinessLogic
 
         public UserType userType { get; set; }
 
+
+
         public override String ToString()
         {
-            return this.Surname + "," + this.Given2 + this.Given1;
+            if (this.Given2 == "")
+            {
+            return this.Surname + ", " + this.Given1;
+            }
+            else 
+            {
+            return this.Surname + ", " + this.Given2 + " " + this.Given1;
+            }
         }
     }
 }
