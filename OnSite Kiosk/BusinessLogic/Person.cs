@@ -30,7 +30,7 @@ namespace OnSite_Kiosk.BusinessLogic
 
         public override String ToString()
         {
-            return this.Surname + ", " + this.Given2 "," + this.Given1;
+            return this.Surname + "," + this.Given2 + this.Given1;
         }
     }
 }
