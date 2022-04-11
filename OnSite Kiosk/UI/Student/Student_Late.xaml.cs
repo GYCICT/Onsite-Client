@@ -152,10 +152,10 @@ namespace OnSite_Kiosk.UI.Student
                 // show success
                 this.Frame.Navigate(typeof(SignInOutComplete), "You have successfully signed in. Please wait while your late pass prints.");
             }
-            else
-            {
-                await new MessageDialog("Sorry, the sign in attempt failed. Please see reception.").ShowAsync();
-            }
+            // else
+            // {
+            //     await new MessageDialog("Sorry, the sign in attempt failed. Please see reception.").ShowAsync();
+            // }
         }
             
     }

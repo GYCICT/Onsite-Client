@@ -46,8 +46,7 @@
            
         </Grid>
         <RelativePanel>
-            <Button Height="100" CornerRadius="10" MinWidth="320" Margin="20,0,0,20" x:Name="btn_Signout" RelativePanel.AlignBottomWithPanel="True"  RelativePanel.AlignRightWithPanel="True" Click="btn_Signout_Click" IsEnabled="False">Sign Out - Print Leave Pass</Button>
-            <Button Height="100" CornerRadius="10" MinWidth="320" Margin="0,20" x:Name="btn_SignoutNoPass" RelativePanel.AlignBottomWithPanel="True"  RelativePanel.LeftOf="btn_Signout" Click="btn_SignoutNoPass_Click" IsEnabled="False">Sign Out - Do not print</Button>
+            <Button Height="100" CornerRadius="10" MinWidth="320" Margin="0,20" x:Name="btn_SignoutNoPass" RelativePanel.AlignBottomWithPanel="True" Click="btn_SignoutNoPass_Click" IsEnabled="False">Sign Out</Button>
         </RelativePanel>
     </StackPanel>
     

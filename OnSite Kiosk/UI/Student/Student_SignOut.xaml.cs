@@ -111,7 +111,6 @@ namespace OnSite_Kiosk.UI.Student
                 b.Unchecked += (object zsender, RoutedEventArgs ze) =>
                 {
                     selectedReason = null;
-                    btn_Signout.IsEnabled = false;
                     btn_SignoutNoPass.IsEnabled = false;
                 };
                 
@@ -126,7 +125,6 @@ namespace OnSite_Kiosk.UI.Student
                     }
 
                     selectedReason = reason;
-                    btn_Signout.IsEnabled = true;
                     btn_SignoutNoPass.IsEnabled = true;
 
                     if (reason.DefaultTimeBlocks >= 0)
@@ -204,22 +202,18 @@ namespace OnSite_Kiosk.UI.Student
                     {
                         await Windows.ApplicationModel.FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync();
                     }
-                    successMessage = "You have successfully signed out. Please wait while your leave pass prints.";
+                    successMessage = "You have successfully signed out.";
                 }
-                
+
+                else
+                {
+                    successMessage = "You have successfully signed out.";
+                }
+
                 // show success
                 this.Frame.Navigate(typeof(SignInOutComplete), successMessage);
             }
-            else
-            {
-                await new MessageDialog("Sorry, the sign out attempt failed. Please try again.").ShowAsync();
-            }
         }
-
-        // private void btn_Signout_Click(object sender, RoutedEventArgs e)
-        // {
-        //     Signout_Complete(true);
-        // }
 
         private void btn_SignoutNoPass_Click(object sender, RoutedEventArgs e)
         {

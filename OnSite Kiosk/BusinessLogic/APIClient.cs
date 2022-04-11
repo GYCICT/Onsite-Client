@@ -191,7 +191,7 @@ namespace OnSite_Kiosk.BusinessLogic
         }
         
         //TODO: ParentSMS
-        async public Task<bool> StudentSignOut(Person person, String siteid, SignOutReason reason, String parentmobile DateTime? expectereturn = null)
+        async public Task<bool> StudentSignOut(Person person, String siteid, SignOutReason reason, DateTime? expectereturn = null)
         {
             Dictionary<String, String> dict = new Dictionary<String, String> {
                 { "id", person.ID.ToString() },
@@ -219,31 +219,7 @@ namespace OnSite_Kiosk.BusinessLogic
 
                 throw e;
             }
-        
-            if (respone.IsSuccessStatusCode == true)
-            {
-                
-            }
-
         }
-
-        // async public Task<bool> ParentSMS(Person person )
-        // {
-        // Dictionary<String, String> dict = new Dictionary<String, String> {
-        //         { "id", person.ID.ToString() },
-        //         { "reason", reason.ReasonID.ToString() },
-        //         {"siteid", siteid },
-        //         {"reasontext", reason.Description.ToString() }
-        //     };
-        
-        // {
-        //     var content = new FormUrlEncodedContent(new Dictionary<String, String> { { "sms", search } });
-        //     try
-        //     {
-        //         var response = await client.PostAsync(_APIBase + "/sms", content);
-        //         var responseString = await response.Content.ReadAsStringAsync();
-
-        // }
 
         async public Task<bool> StudentLate(Person person, StudentLateReason reason)
         {
