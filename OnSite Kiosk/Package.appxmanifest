@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="7acd2f74-b62d-4dbb-a73f-31ef89e95a0c"
-    Publisher="CN=pprice"
-    Version="1.0.9.0" />
+    Name="OnSite"
+    Publisher="CN=GYC-OnSite"
+    Version="2.0.1.0" />
 
   <mp:PhoneIdentity PhoneProductId="7acd2f74-b62d-4dbb-a73f-31ef89e95a0c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>OnSite Kiosk</DisplayName>
-    <PublisherDisplayName>pprice</PublisherDisplayName>
+    <PublisherDisplayName>GYC ICT</PublisherDisplayName>
     <Logo>UI\Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -37,7 +37,7 @@
         Square44x44Logo="UI\Assets\Square44x44Logo.png"
         Description="OnSite Kiosk"
         BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="UI\Assets\Wide310x150Logo.png">
+        <uap:DefaultTile Wide310x150Logo="UI\Assets\Wide310x150Logo.png" Square71x71Logo="UI\Assets\SmallTile.png" Square310x310Logo="UI\Assets\LargeTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo"/>
             <uap:ShowOn Tile="wide310x150Logo"/>
@@ -59,4 +59,4 @@
     <Capability Name="privateNetworkClientServer"/>
     <rescap:Capability xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" Name="runFullTrust" />
   </Capabilities>
-</Package>
+</Package>.0

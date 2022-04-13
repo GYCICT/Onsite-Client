@@ -60,7 +60,7 @@ namespace OnSite_Kiosk.UI.Student
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             // this code to be moved to business logic so that we start with a List<SignOutReason> object
-            String reasonstring = "[{\"ReasonID\":19,\"Description\":\"Appointment\",\"DefaultTimeBlocks\":2},{\"ReasonID\":1,\"Description\":\"Illness\",\"DefaultTimeBlocks\":-1},{\"ReasonID\":24,\"Description\":\"Study Leave\",\"DefaultTimeBlocks\":-1},{\"ReasonID\":20,\"Description\":\"Approved absence - See Office Staff\",\"DefaultTimeBlocks\":-1}]";
+            String reasonstring = "[{\"ReasonID\":19,\"Description\":\"Appointment\",\"DefaultTimeBlocks\":2},{\"ReasonID\":1,\"Description\":\"Illness\",\"DefaultTimeBlocks\":-1},{\"ReasonID\":24,\"Description\":\"Study Leave\",\"DefaultTimeBlocks\":-1},{\"ReasonID\":42,\"Description\":\"Approved absence - See Office Staff\",\"DefaultTimeBlocks\":-1}]";
             List<SignOutReason> reasons = JsonConvert.DeserializeObject<List<SignOutReason>>(reasonstring);
 
             // set up the slider values

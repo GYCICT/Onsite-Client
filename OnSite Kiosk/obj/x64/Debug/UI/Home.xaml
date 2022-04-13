@@ -25,7 +25,7 @@
             <Button x:ConnectionId='9' x:Name="btn_student" HorizontalAlignment="Stretch" Content="Student" Height="100" MaxWidth="320" Grid.Column="1"                           AllowFocusOnInteraction="False" IsTabStop="False" CornerRadius="10"/>
             <Button x:ConnectionId='10' x:Name="btn_visitor" HorizontalAlignment="Stretch" Content="Visitor" Height="100" MaxWidth="320" Grid.Column="2" AllowFocusOnInteraction="False" IsTabStop="False" CornerRadius="10"                          />
         </Grid>
-        <TextBlock x:ConnectionId='3' HorizontalAlignment="Center" Text="To begin, select from the buttons above, or scan your ID card/visitor pass" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" x:Name="lbl_intro" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Center" Text="To begin, select from the buttons above" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" x:Name="lbl_intro" Grid.Column="1"/>
         <ProgressRing x:ConnectionId='4' IsActive="False" x:Name="prg_loading" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Grid>
 </Page>
