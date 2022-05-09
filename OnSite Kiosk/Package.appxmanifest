@@ -9,7 +9,7 @@
   <Identity
     Name="OnSite"
     Publisher="CN=GYC-OnSite"
-    Version="2.0.1.0" />
+    Version="2.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="7acd2f74-b62d-4dbb-a73f-31ef89e95a0c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

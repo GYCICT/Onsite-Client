@@ -23,7 +23,7 @@
         <ToggleSwitch x:ConnectionId='10' x:Name="sw_mod_staff" RelativePanel.RightOf="sw_mod_student" RelativePanel.AlignTopWith="sw_mod_student">Staff Module</ToggleSwitch>
         <ToggleSwitch x:ConnectionId='11' x:Name="sw_mod_visitor" RelativePanel.RightOf="sw_mod_staff" RelativePanel.AlignTopWith="sw_mod_staff">Visitor Module</ToggleSwitch>
         <Button x:ConnectionId='12' Content="Save" VerticalAlignment="Top" Width="120" Margin="0, 20" Click="Button_Click" x:Name="SaveButton" RelativePanel.Below="sw_mod_visitor"/>
-        <TextBlock Margin="0,20,0,8" FontSize="20" x:Name="Version" RelativePanel.Below="SaveButton">Version: 2.0.1</TextBlock>
+        <TextBlock Margin="0,20,0,8" FontSize="20" x:Name="Version" RelativePanel.Below="SaveButton">Version: 2.0.2.0</TextBlock>
 
         
     </RelativePanel>
