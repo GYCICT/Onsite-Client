@@ -56,7 +56,7 @@ namespace OnSite_Kiosk.UI.Student
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             // this code to be moved to business logic so that we start with a List<SignOutReason> object
-            String reasonstring = "[{\"ID\":20,\"Description\":\"Other\"},{\"ID\":21,\"Description\":\"Personal / Family Issue\"},{\"ID\":22,\"Description\":\"Slept in\"},{\"ID\":24,\"Description\":\"Study Leave\"},{\"ID\":23,\"Description\":\"Transport Issues\"},{\"ID\":18,\"Description\":\"Weather\"}]";
+            String reasonstring = "[{\"ID\":20,\"Description\":\"Other\"},{\"ID\":21,\"Description\":\"Personal / Family Issue\"},{\"ID\":22,\"Description\":\"Slept in\"},{\"ID\":24,\"Description\":\"Study Leave\"},{\"ID\":23,\"Description\":\"Transport Issues\"},{\"ID\":19,\"Description\":\"Appointment\"}]";
             List<StudentLateReason> reasons = JsonConvert.DeserializeObject<List<StudentLateReason>>(reasonstring);
 
 
