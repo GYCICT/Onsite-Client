@@ -354,7 +354,7 @@ namespace OnSite_Kiosk.BusinessLogic
             return null;
         }
 
-        async public Task<GuestPass> GuestSignIn(String siteid, String firstname, String lastname, String mobile, String company = "", String wwvp = null, String wwvpverifiedby = null, Person staffcontact = null, bool internet = false)
+        async public Task<GuestPass> GuestSignIn(String siteid, String firstname, String lastname, String mobile, String company = "", String wwvp = null, Person staffcontact = null, bool internet = false)
         {
 
             var dict = new  Dictionary<String, String> {
@@ -363,21 +363,9 @@ namespace OnSite_Kiosk.BusinessLogic
                 { "lastname", lastname },
                 { "mobile", mobile },
                 { "company", company },
+                { "wwvp", wwvp},
                 { "internet", internet.ToString() }
             };
-            if (wwvp != null)
-            {
-                dict.Add("wwvp", wwvp);
-            }
-
-            if (staffcontact != null)
-            {
-                dict.Add("staffcontact", staffcontact.ID);
-            }
-            if (wwvpverifiedby != null)
-            {
-                dict.Add("wwvpverifiedby", wwvpverifiedby);
-            }
 
             var content = new FormUrlEncodedContent(dict);
             try
@@ -421,33 +409,5 @@ namespace OnSite_Kiosk.BusinessLogic
             }
         }
 
-        async public Task<WWVP> VerifyWWVP(String lastname, String wwvp)
-        {
-            var content = new FormUrlEncodedContent(new Dictionary<String, String> {
-                { "lastname", lastname },
-                { "wwvp", wwvp }
-            });
-            try
-            {
-                var response = await client.PostAsync(_APIBase + "/WWVPVerify", content);
-                var responseString = await response.Content.ReadAsStringAsync();
-
-                if (response.StatusCode == System.Net.HttpStatusCode.OK)
-                {
-                    // success (It will now always be successful, as captcha has been added to WWVP Checking site.)
-                    WWVP wwvpo = JsonConvert.DeserializeObject<WWVP>(responseString);
-                    if (!String.IsNullOrEmpty(wwvpo.RegistrationNumber))
-                    {
-                        return wwvpo;
-                    }
-                    return null;
-                }
-            }
-            catch (Exception e)
-            {
-                throw e;
-            }
-            return null;
-        }
     }
 }

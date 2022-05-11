@@ -24,6 +24,8 @@
         <ToggleSwitch x:Name="sw_mod_visitor" RelativePanel.RightOf="sw_mod_staff" RelativePanel.AlignTopWith="sw_mod_staff">Visitor Module</ToggleSwitch>
 
         <Button Content="Save" VerticalAlignment="Top" Width="120" Margin="0, 20" Click="Button_Click" RelativePanel.Below="sw_mod_visitor"/>
+        <TextBlock Margin="0,20,0,8" FontSize="20" x:Name="Versioning" RelativePanel.Below="savebtn"> Version: 2.0.2.0</TextBlock>
+
 
     </RelativePanel>
 </Page>

@@ -54,10 +54,7 @@ namespace OnSite_Kiosk.UI.Visitor
                 guestinfo["lastname"] as String, 
                 guestinfo["mobile"] as String, 
                 guestinfo["company"] as String,
-                guestinfo["wwvp"] as String,
-                guestinfo["wwvpverifiedby"] as String,
-                guestinfo["staffcontact"] as Person,
-                guestinfo["internet"].ToString() == "True");
+                guestinfo["wwvp"] as String
 
             // hide the loading indicator
             lv.Hide();
@@ -65,9 +62,6 @@ namespace OnSite_Kiosk.UI.Visitor
             // did it succeed?
             if (guestpass != null)
             {
-                // print the visitor pass
-                ApplicationData.Current.LocalSettings.Values["PassType"] = "Visitor";
-                ApplicationData.Current.LocalSettings.Values["PassData"] = guestpass.ToString();
                 
                 if (Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
                 {
@@ -75,7 +69,7 @@ namespace OnSite_Kiosk.UI.Visitor
                 }
 
                 // go to the success page
-                this.Frame.Navigate(typeof(SignInOutComplete), "You have successfully signed in. Your visitor pass will now print.");
+                this.Frame.Navigate(typeof(SignInOutComplete), "You have successfully signed in.");
             }
         }
     }

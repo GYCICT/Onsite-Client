@@ -59,4 +59,4 @@
     <Capability Name="privateNetworkClientServer"/>
     <rescap:Capability xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" Name="runFullTrust" />
   </Capabilities>
-</Package>.0
+</Package>

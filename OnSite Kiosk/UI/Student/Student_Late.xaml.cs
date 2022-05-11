@@ -135,22 +135,13 @@ namespace OnSite_Kiosk.UI.Student
             
             if (await new APIClient().StudentLate(selectedPerson, selectedReason))
             {
-                // print the late pass
-                Dictionary<String, object> passData = new Dictionary<String, object> {
-                    { "LastName", selectedPerson.Surname },
-                    { "FirstName", selectedPerson.Given1 },
-                    { "TimestampIn", DateTime.Now }
-
-                };
-                ApplicationData.Current.LocalSettings.Values["PassType"] = "StudentLate";
-                ApplicationData.Current.LocalSettings.Values["PassData"] = JsonConvert.SerializeObject(passData);
 
                 if (Windows.Foundation.Metadata.ApiInformation.IsApiContractPresent("Windows.ApplicationModel.FullTrustAppContract", 1, 0))
                 {
                     await Windows.ApplicationModel.FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync();
                 }
                 // show success
-                this.Frame.Navigate(typeof(SignInOutComplete), "You have successfully signed in. Please wait while your late pass prints.");
+                this.Frame.Navigate(typeof(SignInOutComplete), "You have successfully signed in.");
             }
             // else
             // {

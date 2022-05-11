@@ -9,7 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Some text here</TextBlock>
-        <Button x:Name="btn_SignIn" Height="100" Width="320" CornerRadius="10" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="Button_Click">Sign In</Button>
+        <Button x:Name="btn_SignIn" Height="194" Width="542" CornerRadius="10" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click" Margin="0,445,0,0">Sign In</Button>
     </Grid>
 </Page>
