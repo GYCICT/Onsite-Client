@@ -434,11 +434,7 @@ namespace OnSite_Kiosk.BusinessLogic
 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    if (responseString == "false")
-                    {
-                        return null;
-                    }
-                    // success
+                    // success (It will now always be successful, as captcha has been added to WWVP Checking site.)
                     WWVP wwvpo = JsonConvert.DeserializeObject<WWVP>(responseString);
                     if (!String.IsNullOrEmpty(wwvpo.RegistrationNumber))
                     {
